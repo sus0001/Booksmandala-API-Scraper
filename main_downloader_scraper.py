@@ -177,8 +177,7 @@ print("Saved\n----------------------------------------")
 # Give the user option to keep or delete the downloaded Json file including the folder:
 user_input_2 = ""
 while True:    
-    user_input_2 = input("Do you want to save the JSON folder?\n--------------------------------------------\nType 'y' for yes or 'n' for no\n:> ")
-    print(f"Wrong input. Type 'y' for yes or 'n' for no.")
+    user_input_2 = input("Do you want to save the JSON folder?\n--------------------------------------------\nType 'y' for yes or 'n' for no\n:> ")   
 
     if user_input_2 == 'y':
         print(f"Saving....")
@@ -188,6 +187,7 @@ while True:
         print(f"Deleting....\n------------------------------")
         break
     else:
+        print(f"Wrong input. Type 'y' for yes or 'n' for no.")
         continue
 time_took = time.time() - start_time
 
