@@ -14,7 +14,7 @@ I approach this step to avoid the unnecessary requests to API while extracting o
 
 # Instruction
 ⁍ User will have to replace the path directory of the folder where they clone this repository.                                                                          
-  •The path directory is in main_downloader_scraper.py file. User only have to replace the path directory of the folder where they clone this repository. 
+  •The path directory is in main_downloader_scraper.py file. User only have to replace the path directory of the folder where they clone this repository.               
 ⁍ User is greeted with availbale category of the Books available in the website with instructions:                                                                      
 ⁍ Enter the number according to the category and scraper will begin to download json file and export into the intended dataframes.                                      
 ⁍ After the scraping process. Scraper will ask the user to keep or delete the downloaded json file.                                                                     
