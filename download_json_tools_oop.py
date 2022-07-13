@@ -24,12 +24,6 @@ def get_ua():
  
     return random.choice(uastrings)
 
-url = "https://booksmandala.com/api/books?page=1&main_category=sports"
-json_name = "fiction and literature"
-# api_pages = Booksmandala(booksmandala_base_api).read_api_call()
-
-
-
 
 class DownloadJSON:
     def __init__(self, api_url):
