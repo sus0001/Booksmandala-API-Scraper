@@ -1,6 +1,3 @@
-from pickletools import read_bytes1
-from stat import FILE_ATTRIBUTE_REPARSE_POINT
-from textwrap import indent
 import time
 import pprint
 import pandas as pd
@@ -11,7 +8,6 @@ import shutil
 import winsound
 import sys
 import json
-from collections import OrderedDict
 import winsound
 
 
@@ -100,8 +96,8 @@ for i in range(1, total_pages+1):
     url = f"https://booksmandala.com/api/books?page={str(i)}&main_category={user_input}"
     DownloadJSON(url).download_file(i, json_name, path_dir)
     
+    
 time.sleep(2)
-
 print(f"Saved!")
 
 print("Fetching data from downloaded Json file.")
@@ -164,7 +160,6 @@ def data_in_dict():
     }
 
     return dicts
-
 
 
 # Exporting data via pandas dataframe:
