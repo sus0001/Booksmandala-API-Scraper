@@ -1,7 +1,7 @@
-# Booksmandala-API-Scraper
+# Booksmandala-API-Scraper:
 The website has a hidden apis available. The scraper scrapes using requests module to api endpoints.
 
-# Logic
+# Logic:
 Below are the steps use by a scraper:                                                                                                                                   
 ⁍ Make request to API endpoint                                                                                                                                          
 ⁍ Read and fetch the data                                                                                                                                               
@@ -12,7 +12,7 @@ Below are the steps use by a scraper:
 
 I approach this step to avoid the unnecessary requests to API while extracting or playing around with datas.                                                              
 
-# Instruction
+# Instruction:
 ⁍ User will have to replace the path directory of the folder where they clone this repository.                                                                          
   •The path directory is in main_downloader_scraper.py file. User only have to replace the path directory of the folder where they clone this repository.               
 ⁍ User is greeted with availbale category of the Books available in the website with instructions:                                                                      
