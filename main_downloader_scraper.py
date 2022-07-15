@@ -80,7 +80,7 @@ json_name = dict_key_response
 
 # Creating a separate directory to store downloaded file:
 folder_directory = " ".join(dict_key_response.split("-"))
-parent_dir = 'C:\\Users\\rocki\\Py\\download_json'
+parent_dir = os.getcwd()
 path_dir = os.path.join(parent_dir, folder_directory)
 
 
@@ -105,7 +105,7 @@ time.sleep(2)
 
 
 # paste your path url below: c:\\users\\yourusername\\and so on
-path_lists = os.listdir(f'c:\\users\\rocki\\Py\\download_json\\{folder_directory}')
+path_lists = os.listdir(f'{os.getcwd()}\\{folder_name}')
 
 
 # Function to iterate and extract data. I couldn't implement this logic via OOP for now.
